@@ -6,6 +6,7 @@ const BackImage = () => {
   return (
     <div className="w-screen h-screen">
         <Image
+          Priority
           src={image1}
           alt="background"
           className=" hidden lg:block w-full h-full xl: object-cover -z-10"
