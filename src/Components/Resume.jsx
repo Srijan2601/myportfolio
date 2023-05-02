@@ -37,7 +37,7 @@ const Resume = () => {
 
       {showBottomDivs && (
         <div>
-          <div className='flex mt-2 border border-dashed lg:border-[#FBE5F6] w-[30wv] h-[60vh] lg:w-[40vw] lg:h-[36vh] min-h-640:h-[38vh] m-auto overflow-auto'>
+          <div className='flex mt-2 border border-dashed lg:border-[#FBE5F6] w-[30wv] h-[60vh] lg:w-[40vw] lg:h-[36vh] min-h-640:h-[37vh] m-auto overflow-auto'>
             <div className='p-2 grid grid-cols-2 gap-x-20 gap-y-3'>
               <div className='border-b border-dashed border-[#FBE5F6]'>
                 Technical Skills
