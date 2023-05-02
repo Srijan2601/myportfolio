@@ -41,7 +41,7 @@ const Contact = () => {
       </div>
 
       {showBottomDivs && (
-        <div className='flex justify-center items-center mt-2 border border-dashed lg:border-[#FBE5F6] w-screen h-[60vh] lg:w-[40vw] lg:h-[36vh] min-h-640:h-[38vh] m-auto overflow-hidden'>
+        <div className='flex justify-center items-center mt-2 border border-dashed lg:border-[#FBE5F6] w-screen h-[60vh] lg:w-[40vw] lg:h-[36vh] min-h-640:h-[38vh] lg:m-auto overflow-hidden'>
         <div className='p-2 lg:p-0 text-white lg:text-[#FBE5F6]'>
            <div className='grid grid-cols-1 sm:grid-cols-3 p-3 justify-center items-center gap-10 md:gap-20'>
                 <div className='flexbox justify-center items-center' onClick={handleOpenLinkedIn}>
