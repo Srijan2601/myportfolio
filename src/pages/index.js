@@ -1,8 +1,9 @@
-import BackImage from './Components/BackImage'
-import Homepagecli from './Components/Homepagecli'
+import { Fragment } from 'react'
+import BackImage from '@/Components/BackImage'
+import Homepagecli from '@/Components/Homepagecli'
 import { useState } from 'react';
-import AppContext from './Components/context';
-import HomepagecliM from './Components/HomepagecliM';
+import AppContext from '@/Components/context';
+import HomepagecliM from '@/Components/HomepagecliM';
 
 
 
@@ -12,7 +13,7 @@ export default function Home() {
   const [aboutIsTrue, setAboutIsTrue] = useState(false);
   const [contactIsTrue, setContactIsTrue] = useState(false);
   return (
-    <main>
+    <Fragment>
       <div className="hidden min-h-1365:hidden lg:flex">
         <BackImage/>
       </div>
@@ -25,6 +26,6 @@ export default function Home() {
         </div>
       </AppContext.Provider>
       
-    </main>
+    </Fragment>
   )
 }
