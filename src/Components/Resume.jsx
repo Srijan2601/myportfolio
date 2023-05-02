@@ -56,13 +56,13 @@ const Resume = () => {
               <div>Video Editing</div>
               <div>90KB</div>
               <div>React</div>
-              <div>50KB</div>
+              <div>85KB</div>
               <div>Node</div>
-              <div>40KB</div>
+              <div>50KB</div>
               <div>Tailwind</div>
               <div>90KB</div>
               <div>Next</div>
-              <div>50KB</div>
+              <div>70KB</div>
             </div>
           </div>
           <div className=' m-1 p-1 min-h-640:m-2 min-h-640:p-2 text-sm lg:text-base text-center border border-white lg:border-[#FBE5F6] hover:bg-white lg:hover:bg-[#FBE5F6] hover:text-[#0C050F]' onClick={handleOpenPdf}>
